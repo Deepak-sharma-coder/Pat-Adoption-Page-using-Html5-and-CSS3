@@ -1,0 +1,62 @@
+body{
+    background-color: #B5C0D0;
+}
+
+h1,h2{
+    /* background-color: #DCBFFF; */
+    color: #FCFFE0;
+    /* text-align: center; */
+  font-size: 30px;
+  animation: pets 10s ease-in 0s infinite alternate;
+}
+
+
+@keyframes pets {
+  0%{
+   color: aqua;
+   font-size: 30px ;
+  }  
+  50%{
+    color: gray;
+   font-size: 30px ;
+  }
+  100%{
+    color: skyblue;
+   font-size: 30px 
+}
+   }
+
+   #card1, #card2{
+  width: 400px ;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px;
+   }
+
+   img{
+    width: 400px;
+    border: solid black ;
+    border-radius: 20px ;
+    align-items: center;
+   }
+
+   /* p , details{
+    background-color: #7AB2B2;
+    color: white;
+   }
+   summary{
+    background-color: none;
+   } */
+
+   #pets{
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   @media(max-width:375px){
+    #pets{
+      flex-wrap: wrap;
+      
+    }
+   }
